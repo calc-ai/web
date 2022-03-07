@@ -1,16 +1,15 @@
 [tool.poetry]
-name = "bento"
+name = "inference"
 version = "0.1.0"
 description = ""
 authors = ["taekkim <taekkim@student.42seoul.kr>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-scikit-learn = "^1.0.2"
-bentoml = "1.0.0.a3"
-transformers = "^4.16.1"
+python = "3.9.9"
+bentoml = "1.0.0-a5"
+transformers = "^4.16.2"
 torch = "^1.10.2"
-flax = "^0.4.0"
+pyarrow = "^7.0.0"
 
 [tool.poetry.dev-dependencies]
 
