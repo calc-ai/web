@@ -7,7 +7,7 @@ services:
     volumes:
       - ./app:/app
   model:
-    image: 'taekkim/math_code_generate:latest'
+    image: 'generate:latest'
     ports:
       - "5000:5000"
     volumes:

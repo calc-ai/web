@@ -1,7 +1,7 @@
 import requests
 import json
 
-server_add = "http://127.0.0.1:5000/predict"
+server_add = "http://127.0.0.1:3000/predict"
 #server_add = "https://inference-hroadop25q-du.a.run.app"
 
 if __name__ == "__main__":
